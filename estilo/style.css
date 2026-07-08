@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0; 
+    font-size: 100%; 
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; 
+}
+
+html, body {
+    height: 100vh; 
+    width: 100vw;
+    background-color: rgba(242, 242, 242, 0.34); 
+}
+
+main {
+    height: 100vh;
+    position: relative;
+    background-color: rgba(43, 132, 50, 0.88); 
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; 
+    height: 500px; 
+    background-color: blue; 
+    background-image: url("..//imagens/iframe-iphone.png");
+    background-size: cover;
+}
